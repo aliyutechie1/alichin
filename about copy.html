@@ -29,7 +29,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
    </head>
    <!-- body -->
-   <body class="main-layout inner_page">
+   <body class="main-layout inner_page about_page">
       <!-- loader  -->
       <div class="loader_bg">
          <div class="loader"><img src="images/loading.gif" alt="#"/></div>
@@ -50,11 +50,11 @@
                         <nav class="site-navbar">
                            <ul>
                               <li><a href="index.html">Home</a></li>
-                              <li><a href="about.html">About</a></li>
+                              <li><a class="active" href="about.html">About</a></li>
                               <li><a href="service.html">Service</a></li>
                                 <li><a href="testimonail.html">Testimonial</a></li>
                               <li><a href="blog.html">Blog</a></li>
-                              <li><a class="active" href="contact.html">Contact</a></li>
+                              <li><a href="contact.html">Contact</a></li>
                            </ul>
                            <button class="nav-toggler">
                            <span></span>
@@ -76,75 +76,39 @@
          </header>
          <!-- end header inner -->
       </div>
-      <!-- contact -->
-      <div class="contact">
-         <div class="container">
-
-            <!-- TITLE -->
-            <div class="row">
-               <div class="col-md-12">
-                  <div class="titlepage text_align_center">
-                     <span>Contact Us</span>
-                     <h2>Get In Touch</h2>
+      <!-- end banner -->
+      <!-- about -->
+      <div class="about">
+         <div class="container-fluid">
+            <div class="row d_flex">
+               <div class="col-lg-6 col-md-12">
+                  <div class="titlepage text_align_left">
+                     <span>About Us</span>
+                      <h2>Alichin Integrated Services</h2>
+                     <p>We are a trusted agro-allied company specializing in the supply of high-yield seeds, farm produce, agricultural machinery, and equipment. 
+                        Our goal is to support farmers and agribusinesses with reliable products that improve productivity and sustainability.</p>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-12">
+                  <div class="row d_flex">
+                   <div class="col-md-7">
+                     <div class="about_img">
+                        <figure><img src="images/about_img.jpg" alt="#"/>
+                        </figure>
+                     </div>
+                   </div>
+                   <div class="col-md-5">
+                     <div class="about_img">
+                        <figure><img src="images/about_img1.jpg" alt="#"/>
+                        </figure>
+                     </div>
+                   </div>
                   </div>
                </div>
             </div>
-
-            <!-- ADDRESSES -->
-            <!-- ADDRESSES -->
-<div class="row">
-
-   <!-- Netherlands Office -->
-   <div class="col-md-12" style="color: #495057;">
-      <div class="hedingh3 text_align_left">
-         <h3 style="color: #495057;">Netherlands Office</h3>
-         <p style="color: #495057;">
-            📍 Herikerbergweg 181, 6th Floor, 1101 CN Amsterdam, Netherlands<br>
-            📧 support@alichin.com
-         </p>
-
-         <div class="map-responsive">
-            <iframe 
-               src="https://www.google.com/maps?q=Herikerbergweg+181,+1101+CN+Amsterdam&output=embed"
-               width="100%" height="300"
-               style="border:0;" allowfullscreen="">
-            </iframe>
          </div>
       </div>
-   </div>
-
-</div>
-
-            <!-- FORM -->
-            <div class="row mt-5">
-               <div class="col-md-8 offset-md-2">
-                  <form id="request" class="main_form">
-                     <div class="row">
-
-                        <div class="col-md-12">
-                           <input class="form_control" placeholder="Your Name" type="text" name="name">
-                        </div>
-
-                        <div class="col-md-12">
-                           <input class="form_control" placeholder="Phone Number" type="text" name="phone">
-                        </div>
-
-                        <div class="col-md-12">
-                           <textarea class="textarea" placeholder="Message" name="message"></textarea>
-                        </div>
-
-                        <div class="col-md-12">
-                           <button class="send_btn">Send Message</button>
-                        </div>
-
-                     </div>
-                  </form>
-               </div>
-            </div>
-
-         </div>
-      </div>
-      <!-- end contact -->
+      <!-- end about -->
       <!--  footer -->
       <footer>
          <div class="footer">
@@ -172,11 +136,12 @@
                               </ul>
                            </div>
                         </div>
-                       
+                        
                          <div class="col-lg-4 col-md-6">
                            <div class="hedingh3  flot_right text_align_left">
                               <h3>ContacT</h3>
                               <ul class="top_infomation">
+                                 
                                  <li><i class="fa fa-envelope" aria-hidden="true"></i>
                                     <a href="Javascript:void(0)">support@alichin.com</a>
                                  </li>
